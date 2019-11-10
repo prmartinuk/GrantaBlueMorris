@@ -1,0 +1,79 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="paper.css">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<title>Granta Blue Morris - Dance Notes</title>
+</head>
+<body background="BellsLoop.png" class="background-secondary">
+	<div id="top" class="row site">
+	<nav class="border .fixed split-nav">
+		<div class="nav-brand">
+			<h1>Granta Blue Morris</h1>
+		</div>
+		<div class="collapsible">
+		  <input id="collapsible0" type="checkbox" name="collapsible0">
+		  <label for="collapsible0">
+		    <div class="bar1"></div>
+		    <div class="bar2"></div>
+		    <div class="bar3"></div>
+		  </label>
+		  <div class="collapsible-body">
+		    <ul class="inline">
+		      <li><a href="index.html">Home</a></li>
+		      <li><a href="join-us.html">Join Us</a></li>
+		      <li><a href="#">Gallery</a></li>
+		      <li><a href="dances.html">Dance Notes</a></li>
+		    </ul>
+		  </div>
+		</div>
+	</nav>
+	<div class="paper container">
+		<h1>Dance Notes and other info</h1>
+		<p>Being a Morris side of currently limited number, Granta Blue has adapted some of the dances we perform to 3 or 4 dancers from the original 6 or 8.</p>
+		<p>Below are the cribs for some of the dances in our current repertoire. They are a rough map of how each dance goes.</p>
+		<p>It is worth referring to a video or 'A Handbook of Morris Dances' by Lionel Bacon (aka The Black Book) as published by The Morris Ring if more information is required.</p>
+
+<div class="row flex-spaces" align="center">
+
+{% for dance in site.dances %}
+<div class="card">
+  <div class="card-header">{{ dance.tradition }}</div>
+    <div class="card-body">
+      <h4 class="card-title">{{ dance.title }}</h4>
+      <h5 class="card-subtitle">{{ dance.type }}</h5>
+      <p class="card-text">{{ dance.summary }}</p>
+      <label class="paper-btn margin" for="modal{{ dance.slug }}">Details</label>
+{% if dance.image != nil and dance.image != empty %}
+     <img class="image-bottom" src="img/{{ dance.image }}" alt="Photo of dance" />
+{% endif %}
+    </div>
+</div>
+<input class="modal-state" id="modal{{ dance.slug }}" type="checkbox">
+<div class="modal">
+  <label class="modal-bg" for="modal{{ dance.slug }}"></label>
+  <div class="modal-body">
+    <label class="btn-close" for="modal{{ dance.slug }}">X</label>
+    <h4 class="modal-title">{{ dance.title }}</h4>
+    <h5 class="modal-subtitle">{{ dance.type }}</h5>
+<dl>
+    <dt>Stepping:</dt><dd>{{ dance.step }}</dd>
+    <dt>Formation:</dt><dd>{{ dance.formation | markdownify }}</dd></dl>
+    <h5 class="modal-subtitle">Chorus:</h5>
+	  <div>{{ dance.chorus | markdownify }}</div>
+    <h5 class="modal-subtitle">Sequence:</h5>
+    <div>{{ dance.content | markdownify }}</div>
+  </div>
+</div>
+{% endfor %}
+
+	</div>
+	</div>
+</div>
+</body>
+</html>

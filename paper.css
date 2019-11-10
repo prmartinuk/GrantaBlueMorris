@@ -1485,7 +1485,9 @@ button.btn-muted-outline:hover:active {
   flex-direction: column;
   position: relative;
   will-change: transform;
-  word-wrap: break-word
+  word-wrap: break-word;
+	width: 20rem;
+	margin: 0.5rem;
 }
 .card:hover {
   -webkit-transform: translate3d(0,2px,0);
@@ -1505,7 +1507,7 @@ button.btn-muted-outline:hover:active {
 }
 .card .card-body {
   flex: 1 1 auto;
-  padding: 1.25rem
+  padding-top: 1.25rem
 }
 .card .card-body .card-title,
 .card .card-body h4 {
@@ -1531,7 +1533,7 @@ button.btn-muted-outline:hover:active {
 .card .image-top,
 .card img {
   border: 0;
-  border-radius: 0
+  border-radius: 0;
 }
 input,
 select,
@@ -1821,7 +1823,7 @@ fieldset.form-group {
   top: 0;
   visibility: hidden;
   word-wrap: break-word;
-  z-index: 12
+  z-index: 120
 }
 .modal-bg {
   bottom: 0;
@@ -1838,6 +1840,8 @@ fieldset.form-group {
   background: #fff;
   border: 2px solid #e6e7e9;
   left: 50%;
+  overflow: scroll;
+  max-height: 80%;
   padding: 1.25rem;
   position: absolute;
   top: 0;

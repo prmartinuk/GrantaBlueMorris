@@ -1,0 +1,14 @@
+title: Granta Blue Morris
+description: >- 
+  Granta Blue Morris is a Cotswold Morris side based in Cambridge, UK
+baseurl: ""
+url: "https://www.grantabluemorris.co.uk"
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+collections:
+  - dances
