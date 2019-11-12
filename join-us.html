@@ -12,30 +12,8 @@ title: Join Us
 	{% seo %}
 </head>
 <body background="BellsLoop.png" class="background-secondary">
-	<div id="fb-root"></div>
-		<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v5.0"></script>
 	<div id="top" class="row site">
-	<nav class="border .fixed split-nav">
-		<div class="nav-brand">
-			<h1>Granta Blue Morris</h1>
-		</div>
-		<div class="collapsible">
-		  <input id="collapsible0" type="checkbox" name="collapsible0">
-		  <label for="collapsible0">
-		    <div class="bar1"></div>
-		    <div class="bar2"></div>
-		    <div class="bar3"></div>
-		  </label>
-		  <div class="collapsible-body">
-		    <ul class="inline">
-		      <li><a href="index.html">Home</a></li>
-		      <li><a href="join-us.html">Join Us</a></li>
-		      <li><a href="#">Gallery</a></li>
-		      <li><a href="dances.html">Dance Notes</a></li>
-		    </ul>
-		  </div>
-		</div>
-	</nav>
+	{% include menu.html %}
 	<div class="sm-12 md-8 col">
 	<div class="paper container">
 		<h1>Join Us</h1>
