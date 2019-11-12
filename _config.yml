@@ -1,8 +1,19 @@
 title: Granta Blue Morris
-description: >- 
-  Granta Blue Morris is a Cotswold Morris side based in Cambridge, UK
+description: Granta Blue Morris is a Cotswold Morris side based in Cambridge, UK
+url: https://www.grantabluemorris.co.uk
+facebook:
+  publisher: GrantaBlueMorris
+logo: officiallogo.png
+social:
+  links:
+    - https://www.instagram.com/grantabluemorris
+    - https://www.facebook.com/GrantaBlueMorris
+seo:
+  type: Organization
+lang: en-GB
 baseurl: ""
-url: "https://www.grantabluemorris.co.uk"
+#google_site_verification: 
+
 
 # Build settings
 theme: minima
