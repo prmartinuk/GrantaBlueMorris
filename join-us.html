@@ -27,7 +27,16 @@ title: Join Us
 	<div class='sm-12 md-4 col sidebar'>
     <div class='paper border border-success shadow'>
 			<h2 class='margin-top-small'>Upcoming Practices</h2>
-			<iframe src="https://calendar.google.com/calendar/embed?wkst=1&amp;bgcolor=%234285F4&amp;ctz=Europe%2FLondon&amp;src=bmUxNmJtbHJxMzhnZWg3MGFnYWxscTVxNHNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23009688&amp;showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA" style="border-width:0" width="100%" frameborder="0" scrolling="no"></iframe>
+      <div id="events-upcoming">
+  	    <iframe src="https://calendar.google.com/calendar/embed?wkst=1&amp;bgcolor=%234285F4&amp;ctz=Europe%2FLondon&amp;src=bmUxNmJtbHJxMzhnZWg3MGFnYWxscTVxNHNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23009688&amp;showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA" style="border-width:0" width="100%" frameborder="0" scrolling="no"></iframe>
+      </div>
+      <script src="cal.js"></script>
+      <script>
+      formatGoogleCalendar.init({
+        calendarUrl: 'https://www.googleapis.com/calendar/v3/calendars/ne16bmlrq38geh70agallq5q4s@group.calendar.google.com/events?key=AIzaSyAkYz24zY9V2w2gS7zU4iq2JstUT9GWKqg&maxResults=10&singleEvents=true',
+        upcomingSelector: 'events-upcoming'
+      });
+      </script>
 		</div>
 
 	</div>
