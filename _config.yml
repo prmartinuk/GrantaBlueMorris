@@ -23,3 +23,7 @@ plugins:
 
 collections:
   - dances
+
+sass:
+  sass_dir: _scss
+  style: compressed
