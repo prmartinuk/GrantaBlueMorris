@@ -19,7 +19,24 @@ layout: compress
 </head>
 <body background="BellsLoop.png" class="background-secondary">
 	<div id="fb-root"></div>
-		<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v5.0"></script>
+<script>
+window.fbAsyncInit = function() {
+  if ("IntersectionObserver" in window) {
+    let lazyImageObserver = new IntersectionObserver(function(entries, observer) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          let lazyImage = entry.target;
+          FB.XFBML.parse(lazyImage);
+          lazyImageObserver.unobserve(lazyImage);
+        }
+      });
+    });
+
+    lazyImageObserver.observe(document.getElementById("social"));
+  }
+};
+</script>
+		<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=0&version=v5.0"></script>
 	<div id="top" class="row site">
 	{% include menu.html %}
 	<div class="sm-12 md-8 col">
@@ -51,7 +68,7 @@ layout: compress
       </script>
 		</div>
 
-    <div class='paper border-2 border-secondary shadow'>
+    <div class='paper border-2 border-secondary shadow' id="social">
 			<h2 class='margin-top-small'>Social Media</h2>
 			<p>We are very friendly people; you can find us being socialable on:</p>
 			<div align="center">
