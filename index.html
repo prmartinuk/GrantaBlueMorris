@@ -24,12 +24,9 @@ layout: compress
 	{% include menu.html %}
 	<div class="sm-12 md-8 col">
 	<div class="paper container">
-		<img src="img/littleportDoD1024.jpg"
-         srcset="img/littleportDoD1024.jpg 1024w, img/littleportDoD512.jpg 512w, img/littleportDoD256.jpg 256w"
-				 sizes="(min-width: 960px) 960px, 100vw"
-         alt="Granta Blue dancing at Littleport Day of Dance" />
+		{% include img1024.html baseName="littleportDoD" alt="Granta Blue dancing at Littleport Day of Dance" class="" %}
 		<h1>Welcome to the virtual home of Granta Blue</h1>
-		<img src="img/elyFF480.jpg" sizes="(min-width: 480px) 480px, 100vw" srcset="img/elyFF480.jpg 480w, img/elyFF240.jpg 240w" alt="Granta Blue dancing at Ely Folk Festival" class="float-left" />
+		{% include img480.html baseName="elyFF" alt="Granta Blue dancing at Ely Folk Festival" class="float-left" %}
 		<p>Granta Blue Morris is a mixed gender Cotswold side based in Cambridge in the UK.</p>
 		<p>We were formed out of the desire of a small group of friends to have a young and energetic Cotswold Morris side attached as a society to the University of Cambridge.</p>
 		<p>Although Granta Blue are no longer an affiliated society to the University, we are still Cambridge's youngest Cotswold side both in terms of average age and having formed in 2010.</p>

@@ -41,7 +41,10 @@ layout: compress
       <p class="card-text">{{ dance.summary }}</p>
       <label class="paper-btn margin" for="modal{{ dance.slug }}">Details</label>
 {% if dance.image != nil and dance.image != empty %}
-     <img class="image-bottom" src="img/{{ dance.image }}" alt="Photo of dance" />
+     <picture>
+       <source type="image/webp" srcset="img/{{ dance.image }}.webp" />
+       <img class="image-bottom" src="img/{{ dance.image }}.jpg" alt="Photo of dance" />
+     </picture>
 {% endif %}
     </div>
 </div>

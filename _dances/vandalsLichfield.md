@@ -2,7 +2,7 @@
 title: Vandals of Hammerwich
 tradition: Lichfield
 type: 3, 4, 6 or 8 person stick dance
-image: vandals.jpg
+image: vandals
 summary: Stick and a half
 step: 6 double steps, 2 single steps back (R hop, L hop), 2 plain capers, end feet apart with stick up
 formation: 3 staggered set, 4/6/8 Set

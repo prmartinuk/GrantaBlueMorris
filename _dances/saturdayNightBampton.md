@@ -2,7 +2,7 @@
 title: Saturday Night
 tradition: Bampton
 type: N person handkerchief dance
-image: saturdayNight.jpg 
+image: saturdayNight
 summary: Accumalting dance
 step: Normal Bampton stepping and hand movements
 formation: |

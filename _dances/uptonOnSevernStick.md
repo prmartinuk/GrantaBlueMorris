@@ -2,7 +2,7 @@
 title: Upton On Severn Stick Dance
 tradition: Upton On Severn
 type: 4 or 6 man stick dance
-image: uptonStick.jpg
+image: uptonStick
 summary: Border-ish
 step: Double step (hop with bent knee), stomp stomp to end phrase
 formation: Set
