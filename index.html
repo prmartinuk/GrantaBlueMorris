@@ -22,17 +22,20 @@ layout: compress
 <script>
 window.fbAsyncInit = function() {
   if ("IntersectionObserver" in window) {
-    let lazyImageObserver = new IntersectionObserver(function(entries, observer) {
+    let lazyFbObserver = new IntersectionObserver(function(entries, observer) {
       entries.forEach(function(entry) {
         if (entry.isIntersecting) {
-          let lazyImage = entry.target;
-          FB.XFBML.parse(lazyImage);
-          lazyImageObserver.unobserve(lazyImage);
+          let lazyFb = entry.target;
+          FB.XFBML.parse(lazyFb);
+          lazyFbObserver.unobserve(lazyFb);
         }
       });
     });
 
-    lazyImageObserver.observe(document.getElementById("social"));
+    lazyFbObserver.observe(document.getElementById("social"));
+  }
+  else {
+    FB.XFBML.parse();
   }
 };
 </script>
