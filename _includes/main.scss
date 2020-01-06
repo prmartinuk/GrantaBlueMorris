@@ -1,3 +1,18 @@
 $global-font-size: large;
 
 @import "styles";
+
+.site {
+    min-width: 320px;
+}
+
+.nav-brand {
+    margin: 0px 55px;
+}
+
+@media only screen and (min-width: $large-screen)
+{
+	body {
+    background-image: url("BellsLoop.png");
+  }
+}
