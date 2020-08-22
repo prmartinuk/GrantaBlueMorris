@@ -2,6 +2,7 @@
 title: Shooting (Beaux of London City)
 tradition: Adderbury
 type: 3, 4 or 6 man stick dance
+image: shooting
 summary: 
 step: Adderbury single step with three plain capers (and clash) at the end of each phrase.
 formation: 3 as triangle, 4/6 as set
