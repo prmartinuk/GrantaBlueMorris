@@ -1,0 +1,68 @@
+---
+title: Join Us
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <style type="text/css">
+    {% capture include_to_scssify %}
+      {% include main.scss %}
+    {% endcapture %}
+    {{ include_to_scssify | scssify }}
+  </style>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	{% seo %}
+</head>
+<body class="background-secondary">
+<div id="top" class="row site">
+	{% include menu.html %}
+	<div class="paper container">
+		<h1>Gallery</h1>
+		<p>We try to be photogenic, although don't always succeed. Here are some photos and videos of us at past festivals and dance outs.</p>
+	
+	<div class="row flex-spaces" align="center">
+
+	<a href="https://flic.kr/s/aHsmQ938Ez">
+	<div class="card">
+		<div class="card-body">
+		<h4 class="card-title">Ely Folk Festival 2015</h4>
+		</div>
+		<picture>
+			<source type="image/webp" srcset="img/elyCathedral437.webp" />
+			<img class="image-bottom" src="img/elyCathedral437.jpg" alt="Ely FF" />
+		</picture>
+	</div>
+	</a>
+
+	<a href="https://flic.kr/s/aHsmQ9pyyv">
+	<div class="card">
+		<div class="card-body">
+		<h4 class="card-title">Mill Rd Winter Fair 2013</h4>
+		</div>
+		<picture>
+			<source type="image/webp" srcset="img/millRd437.webp" />
+			<img class="image-bottom" src="img/millRd437.jpg" alt="Mill Rd" />
+		</picture>
+	</div>
+	</a>
+
+	<a href="https://flic.kr/s/aHsmJkars7">
+	<div class="card">
+		<div class="card-body">
+		<h4 class="card-title">Cambridge 2011 - Our first dance out</h4>
+		</div>
+		<picture>
+			<source type="image/webp" srcset="img/first437.webp" />
+			<img class="image-bottom" src="img/first437.jpg" alt="Cambridge" />
+		</picture>
+	</div>
+	</a>
+
+	</div>
+</div>
+</body>
+</html>
