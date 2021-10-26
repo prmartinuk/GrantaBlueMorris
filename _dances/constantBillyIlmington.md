@@ -1,6 +1,6 @@
 ---
 title: Constant Billy
-tradition: TBC
+tradition: Ilmington
 type: 4 person two little stick dance
 image: 
 summary: Step and galley twists
