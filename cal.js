@@ -102,14 +102,7 @@ window.formatGoogleCalendar = (() => {
         }
 
         var dateFormatted = getFormattedDate(dateStart, dateEnd, moreDaysEvent, isAllDayEvent);
-        var output = '<div class="alert alert-secondary"'
-
-        if (typeof result.description !== 'undefined')
-        {
-            output += ' popover-top="'+ result.description + '"';
-        }
-
-				output += '><span class="text-danger">' + dateFormatted +'</span>';
+        var output = '<div class="alert alert-secondary"><span class="text-danger">' + dateFormatted +'</span>';
 
         if (typeof result.location !== 'undefined')
         {
