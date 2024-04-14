@@ -1,7 +1,7 @@
 ---
 title: Rattlin' Bog
 tradition: Raglan
-type: 3 person hankerchief dance
+type: 3 person handkerchief dance
 image: 
 summary: Raglan satellites
 step: Single, double, 2x caper to end phrase

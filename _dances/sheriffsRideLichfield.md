@@ -1,7 +1,7 @@
 ---
 title: Sheriff's Ride
 tradition: Lichfield
-type: 2 or 4 person hankerchief
+type: 2 or 4 person handkerchief
 image: 
 summary: 
 step: Single step

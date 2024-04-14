@@ -1,7 +1,7 @@
 ---
 title: Valentine
 tradition: Fieldtown
-type: 3 or 4 man hankerchief dance
+type: 3 or 4 man handkerchief dance
 image: 
 summary: Sidestep corner dance
 step: 2 Double steps, 2 cross backs (/ galley for foot up), jump

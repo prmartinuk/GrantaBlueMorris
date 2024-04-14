@@ -1,7 +1,7 @@
 ---
 title: Haste to the Wedding
 tradition: Brackley
-type: 4 or 6 man hankerchief dance
+type: 4 or 6 man handkerchief dance
 image: 
 summary: Corner dance with folded hankies
 step: 12 single steps, 2 cross backs, in out in (da-doom-doom)

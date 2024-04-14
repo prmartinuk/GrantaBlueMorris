@@ -1,7 +1,7 @@
 ---
 title: Morning Star
 tradition: Bledington
-type: 3 person hankerchief dance
+type: 3 person handkerchief dance
 image: 
 summary: Hooklegs and Helicopters
 step: Double step x2, Hookleg, Foot together jump

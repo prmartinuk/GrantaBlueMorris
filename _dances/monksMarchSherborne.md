@@ -1,7 +1,7 @@
 ---
 title: Monk's March
 tradition: Sherborne
-type: 3 person hankerchief dance
+type: 3 person handkerchief dance
 image: 
 summary: Hoppy dance
 step: Bouncing with heel tap, stamp x3 to end phrase
