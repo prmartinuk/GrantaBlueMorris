@@ -11,6 +11,7 @@ chorus: |
     * For 3 dancers the chorus is done clockwise (4th repeat everyone, shoot choruses aim clockwise then anticlockwise on repeat.)
     * For 4 dancers the chorus is done 1st corners, 2nd corners, on the sides, partners.
     * For 6 dancers the chorus is done 1st corners, 2nd corners, middles, partners.
+soundcloudId: 1954792315
 ---
 * Walk round, first half beating, second half under arm
 * Foot up (dance up and back x2)

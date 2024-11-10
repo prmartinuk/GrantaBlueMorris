@@ -11,6 +11,7 @@ chorus: |
     * Back onto R, forward onto L
     * Hookleg
     * Repeat for good measure.
+soundcloudId: 1954792267
 ---
 For 4 person all done as if two separate sets.
 

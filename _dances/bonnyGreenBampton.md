@@ -6,6 +6,7 @@ summary: Chorusless dance
 step: Standard Bampton stepping and hand movements
 formation: Normal set
 chorus: None
+soundcloudId: 1954792299
 ---
 * Foot up (up and back, turn RIGHT 180, down and back)
 * Half gyp (across set, pass right shoulders and back, repeat left)

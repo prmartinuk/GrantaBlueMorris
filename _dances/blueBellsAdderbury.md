@@ -10,6 +10,7 @@ chorus: |
     * For 3 dancers the chorus is done clockwise round the triangle.
     * For 4 dancers the chorus is done alternatively across the set and up/down.
     * For 6 dancers the chorus is done across the set, then 1/3 2/4 5/6, then 1/2 3/5 4/6
+soundcloudId: 1954792295
 ---
 * Walk round singing
 * Foot up (dance up and back x2)

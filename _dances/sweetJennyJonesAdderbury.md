@@ -12,6 +12,7 @@ chorus: |
     * Repeat
     * 1st x1, 2nd x1, 2nd x1, All
     * Foot up
+soundcloudId: 1954792287
 ---
 * Foot up x2 (sung)
 * Ch

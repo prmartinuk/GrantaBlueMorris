@@ -11,6 +11,7 @@ chorus: |
     * Half hey (two single swagger steps and spring caper)
     * Repeat back
     * N.B. is shorter than expected
+soundcloudId: 1954792283
 ---
 * Foot Up (Bampton style)
 * Ch

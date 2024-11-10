@@ -22,6 +22,7 @@ chorus: |
     * RH (RH on LH: tipp butt tipp butt)
     * RH (partner x3)
     * Repeat for good measure.
+soundcloudId: 1954792303
 ---
 Left hand = big stick, Right hand = half stick
 

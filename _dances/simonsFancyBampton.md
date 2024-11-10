@@ -9,6 +9,7 @@ formation: Set
 chorus: | 
     * Side step right (with show), side step left (with show), action (salute / 2x caper), 2 side steps to go around person on right, swagger and caper (normal bampton) back to place
     * 1st corner, 2nd corner, everyone
+soundcloudId: 1954792291
 ---
 * Foot Up (Bampton style)
 * Ch (salute)

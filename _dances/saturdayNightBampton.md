@@ -13,6 +13,7 @@ chorus: |
     * Sidestep right, sidestep left, 2 spring capers
         * (N even) past dancer onto the next
         * (N odd) over shoulder turning away from people joining
+soundcloudId: 1954792279
 ---
 * Normal Bampton stepping and hands
 * Ch

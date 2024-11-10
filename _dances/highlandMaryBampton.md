@@ -6,6 +6,7 @@ summary: Chicken Chasers
 step: Normal Bampton stepping and hand movements
 formation: 3 in line (as half set), 6 set
 chorus: Chicken chasers, half hey (3 man along line, 6 man along sides)
+soundcloudId: 1954792271
 ---
 * Foot Up (Bampton style)
 * Ch

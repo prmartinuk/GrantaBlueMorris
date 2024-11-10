@@ -11,6 +11,7 @@ chorus: |
     * Caper x4 turn single
     * Point L stick horizontally at person to left, clash x3 R stick to stick pointing at you
     * Repeat all for good measure
+soundcloudId: 1954792311
 ---
 * Swagger Round (lines swagger in opposite directions round the circle, odds clockwise, evens anti-clockwise, odds pass outside at top, inside at bottom)
 * Ch

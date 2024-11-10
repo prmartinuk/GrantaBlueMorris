@@ -11,6 +11,7 @@ chorus: |
     * Short side step L
     * Spring caper into half hey
     * Repeat
+soundcloudId: 1954792307
 ---
 * Foot up + back
 * Ch

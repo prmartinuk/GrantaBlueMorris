@@ -12,6 +12,7 @@ chorus: |
     * Stick With partner R L R - (3 man diag R diag L diag R)
     * Double step right, double step left, 2 plain capers, end feet apart with stick up
     * Repeat
+soundcloudId: 1954792275
 ---
 * Swagger Round (lines swagger in opposite directions round the circle, odds clockwise, evens anti-clockwise, odds pass outside at top, inside at bottom)
 * Ch
