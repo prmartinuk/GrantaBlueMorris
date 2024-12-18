@@ -8,7 +8,7 @@ step: Step, hop, step, step (left foot start)
 formation: Triangle - point towards musician
 chorus: | 
     * Person at front of triangle:
-    * Sidestep R, L
+    * 1st and 2nd choruses - Closed Sidestep R, L
     * Action (salute / slow galley / stamp+brush / split capers)
     * All step to next place in triangle (left foot start)
     * Galley + foot together jump
