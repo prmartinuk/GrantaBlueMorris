@@ -1,5 +1,5 @@
 ---
-title: Christmas Eve
+title: The Night Before
 tradition: Granta
 type: 3 man handkerchief dance
 summary: Triangle with time
