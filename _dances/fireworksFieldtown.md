@@ -1,6 +1,7 @@
 ---
 title: Fireworks
 tradition: Fieldtown
+origin: Jeff Bigler - https://www.mit.edu/~jcb/Middlesex/dances/fireworks.html
 type: 3 man stick dance
 summary: Triangle throw and clash
 step: 2 Double steps, 2 cross backs / galley, jump
