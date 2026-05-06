@@ -4,7 +4,7 @@ tradition: Ilmington
 type: 4 person two little stick dance
 image: 
 summary: Step and galley twists
-step: Double step x2, step (long twist), galley
+step: Double step x2, step (long twist), galley, jump
 formation: Set
 chorus: | 
     * Corners in turn:
