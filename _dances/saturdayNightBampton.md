@@ -3,7 +3,7 @@ title: Saturday Night
 tradition: Bampton
 type: N person handkerchief dance
 image: saturdayNight
-summary: Accumalting dance
+summary: Accumulating dance
 step: Normal Bampton stepping and hand movements
 formation: |
     * If N is even - 2 people start facing each other, others join on from opposite end of the dance space, making an ever lengthening line
