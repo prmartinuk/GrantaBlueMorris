@@ -2,7 +2,7 @@
 title: Simon’s Fancy
 tradition: Bampton
 type: 4 man corner handkerchief dance
-image: 
+image: simons
 summary: Sidestep corner dance with caper/salutes
 step: Normal Bampton stepping and hand movements
 formation: Set

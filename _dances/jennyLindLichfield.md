@@ -2,7 +2,7 @@
 title: Jenny Lind
 tradition: Lichfield
 type: 4, 6 or 8 person stick and a half dance
-image: 
+image: jennylind
 summary: Stick and a half
 step: Single step
 formation: Set
