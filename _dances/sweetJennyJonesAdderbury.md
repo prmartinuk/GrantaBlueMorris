@@ -18,11 +18,11 @@ soundcloudId: 1954792287
 * Ch
 * Half hands (across the set passing right shoulders, back, left shoulder, back)
 * Ch
-* Process down (3rd down, back, all down, back)
+* Process down (1+2 down, back, all down, back)
 * Ch
 * Hands around (right hand star go round, pull back, repeat with left hands)
 * Ch
-* Process up (1st+2nd down, back, all down, back)
+* Process up (3rd up, back, all up, back)
 * Ch
 * Hey (3 man - 3rd in turn right, 1st + 2nd join in on second phrase)
 * Ch
